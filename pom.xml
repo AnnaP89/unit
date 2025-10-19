@@ -51,7 +51,6 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
@@ -59,7 +58,6 @@
                             <goal>report</goal>
                         </goals>
                     </execution>
-
                 <execution>
                     <id>check</id>
                     <goals>
@@ -72,7 +70,7 @@
                                 <limits>
                                     <limit>
                                         <counter>LINE</counter>
-                                        <value>COVEREDRATIO</value>
+                                        <value>COVERED RATIO</value>
                                         <minimum>0.8</minimum> <!-- 80% покрытия -->
                                     </limit>
                                 </limits>
@@ -81,7 +79,6 @@
                     </configuration>
                 </execution>
                 </executions>
-
             </plugin>
         </plugins>
     </build>

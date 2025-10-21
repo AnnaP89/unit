@@ -43,7 +43,6 @@
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>
-
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
@@ -70,8 +69,8 @@
                                 <limits>
                                     <limit>
                                         <counter>LINE</counter>
-                                        <value>COVERED RATIO</value>
-                                        <minimum>0.8</minimum> <!-- 80% покрытия -->
+                                        <value>COVEREDRATIO</value>
+                                        <minimum>0.8</minimum>
                                     </limit>
                                 </limits>
                             </rule>

@@ -1,8 +1,9 @@
-package ru.netology.statistic.javaqa.javaqamvn.service;
+package ru.netology.statistic.javaqa.javaqamvn.service.StatisticsServiceTest;
 
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.Assertions;
+import ru.netology.statistic.javaqa.javaqamvn.service.StatisticsService;
 
 public class StatisticsServiceTest {
 
